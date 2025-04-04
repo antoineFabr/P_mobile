@@ -23,8 +23,7 @@
                         FontSize="16"
                         VerticalOptions="Center"/>
 
-                    <Picker x:Name="pickerNumber" />
-                
+                    
 
 
                 </HorizontalStackLayout>
