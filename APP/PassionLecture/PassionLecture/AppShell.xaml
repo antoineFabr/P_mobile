@@ -17,6 +17,9 @@
             Title="Livre"
             ContentTemplate="{DataTemplate local:PageLivre}"
             Route="PagedeLivre" />
+        <ShellContent
+            Title="Recherche"
+            ContentTemplate="{DataTemplate local:Recherche}"/>
 
     </TabBar>
     

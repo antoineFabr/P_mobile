@@ -4,13 +4,15 @@
              x:Class="PassionLecture.PageLivre"
              Title="PageLivre">
     <VerticalStackLayout>
-        <Label
-    Text="ReadME"
-    Style="{StaticResource Headline}"
-    SemanticProperties.HeadingLevel="Level1" />
+        
+            <Label
+            Text="ReadME"
+            Style="{StaticResource Headline}"
+            SemanticProperties.HeadingLevel="Level1" />
         <StackLayout Orientation="Horizontal">
         <Image Source="winrar_icon.png" WidthRequest="215"></Image>
             <Label > Titre du Livre</Label>
         </StackLayout>
+        
     </VerticalStackLayout>
 </ContentPage>

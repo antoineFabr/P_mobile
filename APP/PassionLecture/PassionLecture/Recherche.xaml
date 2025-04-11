@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PassionLecture.View.Recherche"
+             Title="Recherche">
+    <VerticalStackLayout>
+        <Label Text="ReadME"
+               FontSize="32"
+               HorizontalOptions="Center"
+               TextColor="Black"
+               FontAttributes="Bold" />
+
+        <!-- Filtres -->
+        <HorizontalStackLayout HorizontalOptions="Center" Spacing="20">
+            <Picker Title="Date" WidthRequest="100" />
+            <Picker Title="Tag" WidthRequest="100" />
+        </HorizontalStackLayout>
+
+        <!-- Collection dynamique de livres -->
+        <CollectionView ItemsSource="{Binding Livres}"
+                        ItemsLayout="VerticalGrid, 2"
+                        VerticalOptions="FillAndExpand"
+                        Margin="0,20,0,0">
+            <CollectionView.ItemTemplate>
+                <DataTemplate>
+                    <VerticalStackLayout Margin="10">
+                        <Frame BackgroundColor="#D3D3D3" Padding="0" CornerRadius="10">
+                            <Image Source="{Binding Image}" Aspect="AspectFill" HeightRequest="100"/>
+                        </Frame>
+                        <Label Text="{Binding Titre}" HorizontalOptions="Center" TextColor="Black" />
+                    </VerticalStackLayout>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+    </VerticalStackLayout>
+</ContentPage>
+    

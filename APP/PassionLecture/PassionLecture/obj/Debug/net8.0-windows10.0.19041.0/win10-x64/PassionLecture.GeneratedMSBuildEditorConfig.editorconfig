@@ -51,6 +51,12 @@ build_metadata.AdditionalFiles.ManifestResourceName = PassionLecture.PageLivre.x
 build_metadata.AdditionalFiles.TargetPath = PageLivre.xaml
 build_metadata.AdditionalFiles.RelativePath = PageLivre.xaml
 
+[C:/Users/pt52png/Documents/GitHub/P_mobile/APP/PassionLecture/PassionLecture/Recherche.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = PassionLecture.Recherche.xaml
+build_metadata.AdditionalFiles.TargetPath = Recherche.xaml
+build_metadata.AdditionalFiles.RelativePath = Recherche.xaml
+
 [C:/Users/pt52png/Documents/GitHub/P_mobile/APP/PassionLecture/PassionLecture/Resources/Styles/Colors.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = PassionLecture.Resources.Styles.Colors.xaml
